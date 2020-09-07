@@ -29,3 +29,10 @@ li a.active {
     background-color: rgb(0, 255, 200);
     color: white;
 }
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+table{
+    width:80%;
+}
