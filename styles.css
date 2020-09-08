@@ -2,8 +2,14 @@ body {
     margin: 0;
     background-color: powderblue;
 }
+p {
+    font-family: arial;
+}
 h1 {
     font-family: arial;
+}
+h2{
+    font-family: Arial;
 }
 ul {
     list-style-type: none;
@@ -15,10 +21,11 @@ ul {
     position: fixed;
     overflow: auto;
 }
-li a {
+li a{
     display: block;
     padding: 8px 16px;
     text-decoration: none;
+    font-family: arial;
     Color: black;
 }
 li a:hover {
@@ -34,13 +41,23 @@ table, th, td {
     border-collapse: collapse;
 }
 table {
+    font-family: arial;
     width:80%;
 }
-div {
-    margin-left:20%;padding:1px 16px;height:1000px;
+.layout{
+    margin-left: 200px;
+    padding:1px 16px;
+    height:1000px;
 }
 caption {
     font-family: Arial;
-    font-size: larger;
-    font-weight: bold;
+    font-size: 1.5em;
+    font-weight: bolder;
+    text-align: left;
+}
+.list {
+    background-color: powderblue;
+    position: unset;
+    height: unset;
+    width: unset;
 }
