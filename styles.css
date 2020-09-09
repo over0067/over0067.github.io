@@ -11,6 +11,9 @@ h1 {
 h2{
     font-family: Arial;
 }
+h4{
+    font-family: Arial;
+}
 ul {
     list-style-type: none;
     margin: 0;
@@ -60,4 +63,7 @@ caption {
     position: unset;
     height: unset;
     width: unset;
+}
+div div p { 
+    background-color: purple;
 }
