@@ -11,6 +11,9 @@ h1 {
 h2{
     font-family: Arial;
 }
+h3{
+    font-family: Arial;
+}
 h4{
     font-family: Arial;
 }
@@ -65,5 +68,8 @@ caption {
     width: unset;
 }
 div div p { 
-    background-color: purple;
+    background-color: powderblue;
+}
+li {
+    font-family: Arial;
 }
